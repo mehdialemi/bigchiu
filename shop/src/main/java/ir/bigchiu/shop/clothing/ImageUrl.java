@@ -1,4 +1,4 @@
-package ir.bigchiu.shop.common;
+package ir.bigchiu.shop.clothing;
 
 import lombok.Data;
 

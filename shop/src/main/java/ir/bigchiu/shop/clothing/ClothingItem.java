@@ -1,9 +1,9 @@
 package ir.bigchiu.shop.clothing;
 
-import ir.bigchiu.shop.common.ImageUrl;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Data
 @Entity
@@ -22,7 +22,13 @@ public class ClothingItem {
 
     private String color;
 
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date date;
+
     @Embedded
     private ImageUrl imageUrl;
+
+    @Embedded
+    private ClothingItemStats stats;
 
 }
