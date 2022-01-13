@@ -10,13 +10,14 @@
     </parent>
 
     <groupId>ir.bigchiu</groupId>
-    <artifactId>bigchiu</artifactId>
+    <artifactId>shop</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
         <module>web</module>
-        <module>shop</module>
+        <module>clothing</module>
+        <module>user</module>
     </modules>
 
     <dependencies>
@@ -40,6 +41,15 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jetty</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
