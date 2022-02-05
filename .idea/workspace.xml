@@ -2,178 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96b62fe5-6bbf-4fc8-86bc-3c9b385e92c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_retrofit2_converter_gson_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_retrofit2_retrofit_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/ClothingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/models/ClothingItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/models/ClothingRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/activation/ActivationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/activation/ActivationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/activation/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/activation/SmsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/AuditingConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/CurrentUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/SpringSecurityAuditAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/UserPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/UserPrincipalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/AppException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/AuthException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/EmailNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/PasswordValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/RoleNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/UserAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/UserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/UsernameNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/google/GoogleLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/google/GoogleProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/google/GoogleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/google/GoogleToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/jwt/JwtEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/jwt/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/jwt/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/jwt/JwtToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/role/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/role/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/role/RoleName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/role/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/role/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/DateAudit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/user.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/ir/bigchiu/web/clothing/CollectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/ir/bigchiu/web/clothing/ShopClothingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/ir/bigchiu/web/connect/ShopConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/css/prettyPhoto.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/css/price-range.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/404/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/blog/blog-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/blog/blog-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/blog/blog-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/blog/man-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/blog/man-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/blog/man-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/blog/man-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/blog/socials.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/cart/one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/cart/three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/cart/two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/bg_border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/gallery1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/gallery2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/gallery3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/gallery4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/girl1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/girl2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/girl3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/iframe1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/iframe2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/iframe3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/iframe4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/partner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/partner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/partner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/partner4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/pricing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/product2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/product3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/product4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/product5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/product6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/recommend1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/recommend2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/recommend3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/sale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/searchicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/home/shipping.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/product-details/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/product-details/new.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/product-details/rating.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/product-details/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/product-details/similar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/product-details/similar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/product-details/similar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/shop/advertisement.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/shop/product10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/shop/product11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/shop/product12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/shop/product7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/shop/product8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/images/shop/product9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/js/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/js/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/js/jquery.scrollUp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/static/js/price-range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/blog-single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/checkout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/contact-us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/product-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/sendemail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/appliker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/account/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/account/AccountAlreadyExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/account/AccountNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/account/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/account/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/media/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/media/MediaActionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/media/MediaLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/media/MediaNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/media/MediaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/media/MediaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/proxy/ProxyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appliker/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigchiu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bigchiu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigchiu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inabama.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/ClothingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/inabama/clothing/ClothingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/ClothingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/inabama/clothing/ClothingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/config/SessionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/inabama/clothing/config/SessionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/entities/ClothingItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/inabama/clothing/entities/ClothingItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/entities/ClothingItemStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/inabama/clothing/entities/ClothingItemStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/entities/ImageUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/inabama/clothing/entities/ImageUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/models/ClothingItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/inabama/clothing/models/ClothingItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/models/ClothingQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/inabama/clothing/models/ClothingQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/models/ClothingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/inabama/clothing/models/ClothingRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/models/SortType.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/inabama/clothing/models/SortType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/models/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/inabama/clothing/models/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/models/order/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/inabama/clothing/models/order/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/services/ClothingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/inabama/clothing/services/ClothingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/services/ClothingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/inabama/clothing/services/ClothingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/clothing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/ir/bigchiu/shop/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/ClothingApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/ir/bigchiu/shop/clothing/ClothingFilterQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/models/ClothingQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/ir/bigchiu/shop/clothing/ClothingItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/entities/ClothingItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/ir/bigchiu/shop/clothing/ClothingItemStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/entities/ClothingItemStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/ir/bigchiu/shop/clothing/ClothingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/services/ClothingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/ir/bigchiu/shop/clothing/ClothingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/services/ClothingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/ir/bigchiu/shop/clothing/ImageUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/entities/ImageUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/ir/bigchiu/shop/common/SessionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/config/SessionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/ir/bigchiu/shop/common/SortType.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/models/SortType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/ir/bigchiu/shop/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/models/order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/java/ir/bigchiu/shop/order/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/models/order/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/js/jquery-1.7.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/static/js/jquery-1.7.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/activation/ActivationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/activation/ActivationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/activation/ActivationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/activation/ActivationType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/activation/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/activation/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/activation/SmsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/activation/SmsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/auth/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/auth/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/auth/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/AuditingConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/common/AuditingConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/CurrentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/common/CurrentUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/common/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/SpringSecurityAuditAwareImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/common/SpringSecurityAuditAwareImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/common/UserPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/UserPrincipalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/common/UserPrincipalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/common/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/AppException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/exceptions/AppException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/AuthException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/exceptions/AuthException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/EmailNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/exceptions/EmailNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/PasswordValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/exceptions/PasswordValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/RoleNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/exceptions/RoleNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/UserAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/exceptions/UserAlreadyExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/UserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/exceptions/UserException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/UsernameNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/exceptions/UsernameNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/google/GoogleLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/google/GoogleLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/google/GoogleProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/google/GoogleProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/google/GoogleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/google/GoogleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/google/GoogleToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/google/GoogleToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/jwt/JwtEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/jwt/JwtEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/jwt/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/jwt/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/jwt/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/jwt/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/jwt/JwtToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/jwt/JwtToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/role/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/role/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/role/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/role/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/role/RoleName.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/role/RoleName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/role/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/role/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/role/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/role/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/user/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/DateAudit.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/user/DateAudit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ir/inabama/user/user/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/web/target/" />
@@ -181,6 +88,7 @@
     <ignored path="$PROJECT_DIR$/shop/target/" />
     <ignored path="$PROJECT_DIR$/clothing/target/" />
     <ignored path="$PROJECT_DIR$/user/target/" />
+    <ignored path="$PROJECT_DIR$/appliker/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,15 +99,16 @@
     <session id="958379363">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.159" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -208,9 +117,9 @@
           <entry key="css" value="1" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="5" />
-          <entry key="java" value="247" />
-          <entry key="properties" value="5" />
-          <entry key="xml" value="9" />
+          <entry key="java" value="267" />
+          <entry key="properties" value="7" />
+          <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -219,9 +128,9 @@
           <entry key="CSS" value="1" />
           <entry key="Git file" value="2" />
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="247" />
-          <entry key="Properties" value="5" />
-          <entry key="XML" value="9" />
+          <entry key="JAVA" value="267" />
+          <entry key="Properties" value="7" />
+          <entry key="XML" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -231,9 +140,9 @@
           <entry key="dummy" value="45" />
           <entry key="gitignore" value="17" />
           <entry key="html" value="1" />
-          <entry key="java" value="7918" />
+          <entry key="java" value="7925" />
           <entry key="properties" value="116" />
-          <entry key="xml" value="44" />
+          <entry key="xml" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -242,61 +151,64 @@
           <entry key="CSS" value="10" />
           <entry key="Git file" value="17" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="7918" />
+          <entry key="JAVA" value="7925" />
           <entry key="PLAIN_TEXT" value="45" />
           <entry key="Properties" value="116" />
-          <entry key="XML" value="44" />
+          <entry key="XML" value="63" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/ClothingApplication.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="-270" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/account/AccountNotFoundException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserRepository.java">
+        <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/account/AccountRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            <state relative-caret-position="60">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/account/AccountService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-224">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserService.java">
+        <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/media/MediaLocation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+            <state relative-caret-position="105">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/proxy/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -305,10 +217,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/AuthService.java">
+        <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/proxy/ProxyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="45">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appliker/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/media/Media.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -317,31 +247,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/LoginRequest.java">
+        <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/media/MediaActionException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/DateAudit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -378,15 +287,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/google/GoogleAuthController.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/PasswordService.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/AuthService.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/JwtService.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/admin/UserAdminController.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/otp/ActivationService.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/ResetType.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/ActivationType.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/activation/ActivationType.java" />
         <option value="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/google/GoogleAuthController.java" />
         <option value="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/google/GoogleAuthService.java" />
         <option value="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/AuthController.java" />
@@ -429,6 +329,15 @@
         <option value="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserService.java" />
         <option value="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserController.java" />
         <option value="$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/ClothingApplication.java" />
+        <option value="$PROJECT_DIR$/clothing/pom.xml" />
+        <option value="$PROJECT_DIR$/appliker/pom.xml" />
+        <option value="$PROJECT_DIR$/appliker/src/main/java/ir/bigchiu/appliker/Application.java" />
+        <option value="$PROJECT_DIR$/appliker/src/main/java/ir/bigchiu/appliker/media/MediaActionException.java" />
+        <option value="$PROJECT_DIR$/appliker/src/main/java/ir/bigchiu/appliker/proxy/Client.java" />
+        <option value="$PROJECT_DIR$/appliker/src/main/java/ir/bigchiu/appliker/media/Media.java" />
+        <option value="$PROJECT_DIR$/appliker/src/main/java/ir/bigchiu/appliker/account/Account.java" />
+        <option value="$PROJECT_DIR$/appliker/src/main/java/ir/bigchiu/appliker/account/AccountService.java" />
+        <option value="$PROJECT_DIR$/appliker/src/main/java/ir/bigchiu/appliker/proxy/ProxyService.java" />
       </list>
     </option>
   </component>
@@ -457,6 +366,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -493,68 +404,34 @@
             <path>
               <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
               <item name="bigchiu" type="462c0819:PsiDirectoryNode" />
-              <item name="clothing" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigchiu" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigchiu" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigchiu" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clothing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigchiu" type="462c0819:PsiDirectoryNode" />
-              <item name="clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigchiu" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigchiu" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.management" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.management" type="462c0819:PsiDirectoryNode" />
-              <item name="management" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.management" type="462c0819:PsiDirectoryNode" />
-              <item name="management" type="462c0819:PsiDirectoryNode" />
-              <item name="relation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -565,8 +442,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1642116522121" />
-    <property name="last_opened_file_path" value="$USER_HOME$/payfa-repo/payfa/edge/src/main/resources/edge.properties" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1644065983138" />
+    <property name="last_opened_file_path" value="$USER_HOME$/trader/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -575,20 +452,21 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ir.bigchiu.user.exceptions" />
-      <recent name="ir.bigchiu.user.management" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/appliker/src/main/java/ir/bigchiu/appliker" />
+      <recent name="$PROJECT_DIR$/appliker/src/main/java/ir/bigchiu/appliker/account" />
+      <recent name="$PROJECT_DIR$/appliker/src/main/resources" />
+      <recent name="$PROJECT_DIR$/user/src/main/resources" />
+      <recent name="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ir.bigchiu.appliker" />
       <recent name="ir.bigchiu.user.paylods" />
       <recent name="ir.bigchiu.user.auth" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/user/src/main/resources" />
-      <recent name="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user" />
-      <recent name="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/management" />
-      <recent name="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/security" />
-      <recent name="$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ir.bigchiu.user.exceptions" />
+      <recent name="ir.bigchiu.user.management" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -614,6 +492,13 @@
     <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="clothing" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ir.bigchiu.shop.clothing.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="appliker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ir.bigchiu.appliker.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -645,6 +530,7 @@
       <item itemvalue="Spring Boot.Application (2)" />
       <item itemvalue="Spring Boot.ClothingShopApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.Application (3)" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -664,18 +550,18 @@
       <workItem from="1640817572914" duration="4008000" />
       <workItem from="1640875386150" duration="3517000" />
       <workItem from="1642105167782" duration="231000" />
-      <workItem from="1642105642398" duration="10509000" />
+      <workItem from="1642105642398" duration="11115000" />
+      <workItem from="1644065336632" duration="657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41893000" />
+    <option name="totallyTimeSpent" value="43156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="25" width="1297" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28057554" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2853717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -717,172 +603,28 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/payload/SignUpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/exceptions/UserAlreadyExistsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/role/RoleName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.5.1/spring-security-core-5.5.1.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.5.1/spring-security-core-5.5.1.jar!/org/springframework/security/authentication/AuthenticationManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/PasswordReset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/PasswordService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.5.3/spring-data-commons-2.5.3-sources.jar!/org/springframework/data/repository/query/QueryByExampleExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/management/UserType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/admin/UserAdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/google/GoogleAuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/ResetPasswordType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.5.1/spring-security-core-5.5.1.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.5.1/spring-security-core-5.5.1.jar!/org/springframework/security/core/userdetails/UserDetails.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/activation/ActivationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/activation/EmailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/activation/ActivationType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/activation/SmsService.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/activation/SmsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/google/GoogleLogin.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/google/GoogleLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/google/GoogleProfile.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/google/GoogleProfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/google/GoogleService.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/google/GoogleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
@@ -892,14 +634,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/google/GoogleToken.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/google/GoogleToken.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/AuthController.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/auth/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
           <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
@@ -909,7 +651,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/AuditingConfig.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/common/AuditingConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -919,7 +661,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/SecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/common/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
@@ -929,7 +671,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/CurrentUser.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/common/CurrentUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
@@ -943,14 +685,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/SpringSecurityAuditAwareImpl.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/common/SpringSecurityAuditAwareImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/UserPrincipal.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/common/UserPrincipal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
           <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
@@ -961,7 +703,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/UserPrincipalService.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/common/UserPrincipalService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
@@ -971,38 +713,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/common/WebMvcConfig.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/common/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/jwt/JwtEntryPoint.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/jwt/JwtEntryPoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/jwt/JwtToken.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/jwt/JwtToken.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/jwt/JwtTokenProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/jwt/JwtService.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/jwt/JwtTokenProvider.java" />
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/jwt/JwtService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-247">
           <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
@@ -1012,7 +745,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/jwt/JwtFilter.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/jwt/JwtFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
@@ -1022,7 +755,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/role/RoleService.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/role/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -1032,60 +765,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/CustomUserDetailsService.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/user/CustomUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/DateAudit.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/user/DateAudit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/User.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserQuery.java" />
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserList.java" />
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/user/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+        <state relative-caret-position="180">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/AuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/auth/LoginRequest.java">
+    <entry file="file://$PROJECT_DIR$/clothing/src/main/java/ir/inabama/clothing/ClothingApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserService.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/user/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
+        <state relative-caret-position="360">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/user/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
           <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1093,44 +815,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/auth/AuthService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="90">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/auth/LoginRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/inabama/user/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clothing/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserList.java">
+    <entry file="file://$PROJECT_DIR$/clothing/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appliker/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/Application.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/media/MediaService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/media/MediaNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/media/MediaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/account/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/ir/bigchiu/user/user/UserController.java">
+    <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/account/AccountAlreadyExists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/account/AccountNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/account/AccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/account/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/media/Media.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/media/MediaActionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/media/MediaLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/proxy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appliker/src/main/java/ir/inabama/appliker/proxy/ProxyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appliker/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clothing/src/main/java/ir/bigchiu/clothing/ClothingApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
+        <state relative-caret-position="-270" />
       </provider>
     </entry>
   </component>
