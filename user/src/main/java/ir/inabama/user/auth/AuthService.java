@@ -1,17 +1,15 @@
 package ir.inabama.user.auth;
 
-import ir.inabama.user.exceptions.PasswordValidationException;
-import ir.inabama.user.jwt.JwtService;
-import ir.inabama.user.jwt.JwtToken;
 import ir.inabama.user.activation.EmailService;
 import ir.inabama.user.activation.SmsService;
 import ir.inabama.user.exceptions.UserException;
 import ir.inabama.user.exceptions.UsernameNotFoundException;
+import ir.inabama.user.jwt.JwtService;
+import ir.inabama.user.jwt.JwtToken;
 import ir.inabama.user.role.RoleName;
 import ir.inabama.user.role.RoleService;
 import ir.inabama.user.user.User;
 import ir.inabama.user.user.UserService;
-import jdk.internal.joptsimple.internal.Strings;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -19,7 +17,6 @@ import org.springframework.stereotype.Service;
 
 import javax.management.relation.RoleNotFoundException;
 import java.util.HashMap;
-import java.util.Optional;
 import java.util.concurrent.ThreadLocalRandom;
 
 @Service
@@ -41,10 +38,10 @@ public class AuthService {
 	@Autowired
 	private JwtService jwtService;
 
-	@Value("${auth.password.reset-subject}")
+	@Value("${auth.password.reset-subject:ChangePassword}")
 	private String resetSubject;
 
-	@Value("${auth.password.reset-base-url}")
+	@Value("${auth.password.reset-base-url:https://localhost}")
 	private String resetBaseUrl;
 
 	private HashMap <String, Integer> codes = new HashMap <>();
@@ -72,15 +69,4 @@ public class AuthService {
 		User user = userService.createUser(email, password, roleService.get(RoleName.USER.name()));
 		return jwtService.createToken(user.getUsername(), password);
 	}
-
-
-	public void changePassword(String username, String password, String confirmed) throws PasswordValidationException, UsernameNotFoundException {
-		if (Strings.isNullOrEmpty(password) || !password.equals(confirmed))
-			throw new PasswordValidationException("password does not match");
-
-		Optional<User> optional = repository.findByUsername(username);
-		User user = optional.orElseThrow(() -> new UsernameNotFoundException(username));
-		user.setPassword(passwordEncoder.encode(password));
-	}
-
 }

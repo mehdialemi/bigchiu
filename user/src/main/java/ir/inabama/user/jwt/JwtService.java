@@ -23,10 +23,10 @@ import java.util.stream.Collectors;
 @Slf4j
 public class JwtService {
 
-	@Value("${jwt.token}")
+	@Value("${jwt.token:abcdefghi}")
 	private String jwtSecret;
 
-	@Value("${jwt.expiration}")
+	@Value("${jwt.expiration:100000}")
 	private int jwtExpirationInMs;
 
 	@Autowired

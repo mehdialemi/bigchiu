@@ -1,11 +1,11 @@
 package ir.inabama.clothing.config;
 
-import lombok.Data;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 
 @Service

@@ -1,17 +1,18 @@
 package ir.inabama.user.user;
 
+import com.google.common.base.Strings;
 import ir.inabama.user.exceptions.EmailNotFoundException;
 import ir.inabama.user.exceptions.UserAlreadyExistsException;
 import ir.inabama.user.exceptions.UsernameNotFoundException;
 import ir.inabama.user.role.Role;
-import jdk.internal.joptsimple.internal.Strings;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.openjpa.util.UserException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.crypto.password.StandardPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Collections;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -25,6 +26,9 @@ public class UserService {
     @Autowired
     private UserRepository repository;
 
+    public List<User> findAll() {
+    	return repository.findAll();
+	}
     public User createUser(String email, Role role) throws UserAlreadyExistsException {
         return createUser(email, null, role);
     }
@@ -89,7 +93,7 @@ public class UserService {
         return repository.findByEmail(email).orElseThrow(() -> new EmailNotFoundException(email));
     }
 
-    public User getByUsernameOrEmail(String username, String email) {
-        return repository.findByUsernameOrEmail(username, email).orElseThrow(UserException::new);
+    public User getByUsernameOrEmail(String username, String email)  {
+        return repository.findByUsernameOrEmail(username, email).orElse(EMPTY_USER);
     }
 }

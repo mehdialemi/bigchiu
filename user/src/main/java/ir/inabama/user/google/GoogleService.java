@@ -1,5 +1,6 @@
 package ir.inabama.user.google;
 
+import com.google.common.base.Strings;
 import ir.inabama.user.common.UserPrincipal;
 import ir.inabama.user.common.UserPrincipalService;
 import ir.inabama.user.exceptions.AuthException;
@@ -11,7 +12,6 @@ import ir.inabama.user.role.RoleName;
 import ir.inabama.user.role.RoleService;
 import ir.inabama.user.user.User;
 import ir.inabama.user.user.UserService;
-import jdk.internal.joptsimple.internal.Strings;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

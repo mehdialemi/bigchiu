@@ -9,8 +9,8 @@ import com.github.instagram4j.instagram4j.requests.media.MediaCommentRequest;
 import com.github.instagram4j.instagram4j.responses.IGResponse;
 import com.github.instagram4j.instagram4j.responses.feed.FeedUserResponse;
 import com.github.instagram4j.instagram4j.responses.media.MediaCommentResponse;
-import ir.appliker.instagram.account.Account;
-import ir.appliker.instagram.proxy.Client;
+import ir.inabama.appliker.account.Account;
+import ir.inabama.appliker.proxy.Client;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

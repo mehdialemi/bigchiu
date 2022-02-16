@@ -1,9 +1,9 @@
 package ir.inabama.web.clothing;
 
-import ir.bigchiu.shop.clothing.ClothingItem;
-import ir.bigchiu.shop.clothing.ClothingItems;
-import ir.bigchiu.shop.clothing.ClothingQuery;
-import ir.bigchiu.shop.common.SortType;
+import ir.inabama.clothing.entities.ClothingItem;
+import ir.inabama.clothing.models.ClothingItems;
+import ir.inabama.clothing.models.ClothingQuery;
+import ir.inabama.clothing.models.SortType;
 import ir.inabama.web.connect.ShopConnector;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
