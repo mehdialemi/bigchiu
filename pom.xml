@@ -16,9 +16,10 @@
 
     <modules>
         <module>web</module>
-        <module>clothing</module>
+        <module>shopping</module>
         <module>user</module>
         <module>appliker</module>
+        <module>login</module>
     </modules>
 
     <dependencies>

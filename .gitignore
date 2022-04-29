@@ -23,3 +23,6 @@
 hs_err_pid*
 /.idea
 */target
+/shopping/target/
+/appliker/target/
+/shopping/shopping.iml

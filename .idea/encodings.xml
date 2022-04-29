@@ -3,7 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/appliker" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/clothing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/login" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web" charset="UTF-8" />
   </component>

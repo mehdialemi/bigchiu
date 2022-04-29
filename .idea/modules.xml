@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/appliker/appliker.iml" filepath="$PROJECT_DIR$/appliker/appliker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/clothing/clothing.iml" filepath="$PROJECT_DIR$/clothing/clothing.iml" />
       <module fileurl="file://$PROJECT_DIR$/inabama.iml" filepath="$PROJECT_DIR$/inabama.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping/shopping.iml" filepath="$PROJECT_DIR$/shopping/shopping.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
