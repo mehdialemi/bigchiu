@@ -220,27 +220,26 @@
     </div>
 </div>
 
-<div id="category-tab" th:fragment="categoryTab">
-    <div th:each="item: ${categoryBox.items}">
-        <div class="col-sm-12">
-            <ul class="nav nav-tabs">
-                <li th:classappend="${item.active}? active">
-                    <a th:href="${item.name}" data-toggle="tab" th:text="${item.name}">
-                        دسته بندی
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="tab-content" th:each="category: ${categoryBox.items}">
-        <div th:id="${category.css}" class="tab-pane fade  in" th:classappend="${category.active} ? active">
+<div th:fragment="categoryHeader" class="col-sm-12">
+    <ul class="nav nav-tabs">
+        <li th:each="category: ${categoryBox.items}" th:classappend="${category.active}? active">
+            <a href="#" data-toggle="tab" th:text="${category.subject}">دسته بندی</a>
+        </li>
+
+    </ul>
+</div>
+
+<div class="tab-content" th:fragment="categoryContent">
+    <div th:each="category: ${categoryBox.items}">
+        <div th:id="${category.css}" class="tab-pane fade" th:classappend="${category.active} ? 'active in'"
+             th:if="${category.active}" th:each="categoryItem: ${category.box.items}">
             <div class="col-sm-3">
                 <div class="product-image-wrapper">
                     <div class="single-products">
                         <div class="productinfo text-center">
-                            <img th:src="${category.imageUrl}" alt=""/>
-                            <h2 th:text="${category.subject}">عنوان دسته بندی</h2>
-                            <p th:text="${category.text}">متن دسته بندی</p>
+                            <img th:src="${categoryItem.imageUrl}" alt=""/>
+                            <h2 th:text="${categoryItem.name}">عنوان دسته بندی</h2>
+                            <p th:text="${categoryItem.text}">متن دسته بندی</p>
                             <a href="#" class="btn btn-default add-to-cart" th:text="#{product.basket.add}">
                                 <i class="fa fa-shopping-cart"></i>
                                 افزودن به سبد خرید

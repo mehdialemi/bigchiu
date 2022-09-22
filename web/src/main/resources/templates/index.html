@@ -32,22 +32,22 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-3"> <!--leftSideBar-->
-                <section th:insert="fragments/container.html :: leftSideBar"></section>
+                <section th:insert="fragments/container :: leftSideBar"></section>
             </div>
 
             <div class="col-sm-9 padding-right">
+                <!--features_items-->
+                <div class="features_items" th:insert="fragments/container :: featuredItems"></div>
+                <!--features_items-->
 
-                <div class="features_items"><!--features_items-->
-                    <div th:insert="fragments/container :: featuredItems"></div>
-                </div><!--features_items-->
-
-                <div class="category-tab"><!--category-tab-->
-                    <div th:insert="fragments/container :: categoryTab"></div>
+                <div class="category-tab">
+                    <div th:replace="fragments/container :: categoryHeader"></div>
+                    <div th:replace="fragments/container :: categoryContent"></div>
                 </div>
 
-                <div class="recommended_items"><!--recommended_items-->
-                    <div th:insert="fragments/container :: recommendedItems"></div>
-                </div><!--/recommended_items-->
+                <!--recommended_items-->
+                <div class="recommended_items" th:insert="fragments/container :: recommendedItems"></div>
+                <!--/recommended_items-->
             </div>
         </div>
     </div>

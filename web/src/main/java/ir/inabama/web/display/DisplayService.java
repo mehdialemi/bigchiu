@@ -26,11 +26,12 @@ public class DisplayService {
 	}
 
 	public DisplayBox getCategoryBox() {
-		List <String> names = Arrays.asList("tshirt", "blazers", "sunglass", "", "poloshirt");
+		List <String> names = Arrays.asList("tshirt", "blazers", "sunglass", "poloshirt");
 		DisplayBox displayBox = createDisplayBox("دسته بندی", "gallery", names);
 
 		for (int i = 0; i < displayBox.getItems().size(); i++) {
 			DisplayBoxItem item = displayBox.getItems().get(i);
+			item.setSubject(item.getName());
 			DisplayBox box = createDisplayBox(displayBox.getTitle(), "gallery", Arrays.asList("1", "2", "3", "4"));
 			item.setBox(box);
 			item.setCss(displayBox.getTitle());
