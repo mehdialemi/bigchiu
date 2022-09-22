@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="fa" xmlns:th="http://www.thymeleaf.org">
 
-<head th:insert="fragments/header.html :: default-head"></head>
-
 <body>
 
 <div class="left-sidebar" id="leftSideBar" th:fragment="leftSideBar">
@@ -144,43 +142,54 @@
 
 </div>
 
-<div id="featured-items" th:fragment="featuredItems">
+<div id="featured-items" class="features_items" th:fragment="featuredItems">
     <h2 class="title text-center" th:text="${featuredBox.title}"></h2>
-    <div id="items-loop" th:if="${featuredBox.items.size() > 0}">
-        <div th:each="item: ${featuredBox.items}">
-            <div class="col-sm-4">
-                <div class="product-image-wrapper">
-                    <div class="single-products">
-                        <div class="productinfo text-center">
-                            <img th:src="${item.imageUrl}" alt=""/>
-                            <h2 th:text="${item.name}">نام کالا</h2>
-                            <p th:text="${item.text}">توضیحات کالا</p>
+    <div id="items-loop">
+        <div class="col-sm-4" th:each="item: ${featuredBox.items}">
+            <div class="product-image-wrapper">
+                <div class="single-products">
+                    <div class="productinfo text-center">
+                        <img th:src="${item.imageUrl}" alt=""/>
+                        <h2 th:text="${item.name}">نام کالا</h2>
+                        <p th:text="${item.text}">توضیحات کالا</p>
+                        <a href="#" class="btn btn-default add-to-cart" th:text="#{product.basket.add}">
+                            <i class="fa fa-shopping-cart"></i>
+                            افزودن به سبد خرید
+                        </a>
+                    </div>
+                    <div class="product-overlay">
+                        <div class="overlay-content">
+                            <h2 th:text="${item.overlayTitle}"></h2>
+                            <p th:text="${item.overlayText}">متن کمکی</p>
                             <a href="#" class="btn btn-default add-to-cart" th:text="#{product.basket.add}">
                                 <i class="fa fa-shopping-cart"></i>
                                 افزودن به سبد خرید
                             </a>
                         </div>
-                        <div class="product-overlay">
-                            <div class="overlay-content">
-                                <h2 th:text="${item.overlayTitle}"></h2>
-                                <p th:text="${item.overlayText}">متن کمکی</p>
-                                <a href="#" class="btn btn-default add-to-cart" th:text="#{product.basket.add}">
-                                    <i class="fa fa-shopping-cart"></i>
-                                    افزودن به سبد خرید
-                                </a>
-                            </div>
-                        </div>
                     </div>
-                    <div class="choose">
-                        <ul class="nav nav-pills nav-justified">
-                            <li><a href="#"><i class="fa fa-plus-square"></i>افزودن به علاقه مندی</a></li>
-                            <li><a href="#"><i class="fa fa-plus-square"></i>مقایسه با دیگر محصولات</a></li>
-                        </ul>
-                    </div>
+                </div>
+                <div class="choose">
+                    <ul class="nav nav-pills nav-justified">
+                        <li>
+                            <a href="#"><i class="fa fa-plus-square"></i>
+                                <label th:text="#{product.favorite.add}">
+                                    افزودن به علاقه مندی
+                                </label>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-plus-square"></i>
+                                <label th:text="#{product.compare.add}">
+                                    مقایسه با دیگر محصولات
+                                </label>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-
     </div>
 </div><!--features_items-->
 
@@ -217,38 +226,6 @@
         <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
             <i class="fa fa-angle-right"></i>
         </a>
-    </div>
-</div>
-
-<div th:fragment="categoryHeader" class="col-sm-12">
-    <ul class="nav nav-tabs">
-        <li th:each="category: ${categoryBox.items}" th:classappend="${category.active}? active">
-            <a href="#" data-toggle="tab" th:text="${category.subject}">دسته بندی</a>
-        </li>
-
-    </ul>
-</div>
-
-<div class="tab-content" th:fragment="categoryContent">
-    <div th:each="category: ${categoryBox.items}">
-        <div th:id="${category.css}" class="tab-pane fade" th:classappend="${category.active} ? 'active in'"
-             th:if="${category.active}" th:each="categoryItem: ${category.box.items}">
-            <div class="col-sm-3">
-                <div class="product-image-wrapper">
-                    <div class="single-products">
-                        <div class="productinfo text-center">
-                            <img th:src="${categoryItem.imageUrl}" alt=""/>
-                            <h2 th:text="${categoryItem.name}">عنوان دسته بندی</h2>
-                            <p th:text="${categoryItem.text}">متن دسته بندی</p>
-                            <a href="#" class="btn btn-default add-to-cart" th:text="#{product.basket.add}">
-                                <i class="fa fa-shopping-cart"></i>
-                                افزودن به سبد خرید
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 

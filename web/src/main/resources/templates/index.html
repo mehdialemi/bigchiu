@@ -37,13 +37,10 @@
 
             <div class="col-sm-9 padding-right">
                 <!--features_items-->
-                <div class="features_items" th:insert="fragments/container :: featuredItems"></div>
+                <div th:insert="fragments/container :: featuredItems"></div>
                 <!--features_items-->
 
-                <div class="category-tab">
-                    <div th:replace="fragments/container :: categoryHeader"></div>
-                    <div th:replace="fragments/container :: categoryContent"></div>
-                </div>
+                <div th:insert="fragments/category :: category"></div>
 
                 <!--recommended_items-->
                 <div class="recommended_items" th:insert="fragments/container :: recommendedItems"></div>

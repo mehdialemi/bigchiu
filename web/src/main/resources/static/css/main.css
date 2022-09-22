@@ -11,10 +11,11 @@
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url('/static/fonts/iranyekanweblight(fanum).ttf') format('truetype'); /* Safari, Android, iOS */
-    src: url('/static/fonts/iranyekanweblight(fanum).svg') format("svg"); /* Legacy iOS */
-    src: url('/static/fonts/iranyekanweblight(fanum).woff') format("woff"); /* Modern Browsers */
-    src: url('/static/fonts/iranyekanweblight(fanum).woff2') format("woff2"); /* Modern Browsers */
+    src: url('/fonts/iranyekanweblight(fanum).eot');
+    src: url('/fonts/iranyekanweblight(fanum).ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('/fonts/iranyekanweblight(fanum).svg') format("svg"); /* Legacy iOS */
+    src: url('/fonts/iranyekanweblight(fanum).woff') format("woff"); /* Modern Browsers */
+    src: url('/fonts/iranyekanweblight(fanum).woff2') format("woff2"); /* Modern Browsers */
 }
 
 body {
