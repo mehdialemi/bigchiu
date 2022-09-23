@@ -155,8 +155,8 @@
                             <img th:src="${item.imageUrl}" alt=""/>
                             <h2 th:text="${item.name}">نام کالا</h2>
                             <p th:text="${item.text}">توضیحات کالا</p>
-                            <a href="#" class="btn btn-default add-to-cart"><i
-                                    class="fa fa-shopping-cart"></i>
+                            <a href="#" class="btn btn-default add-to-cart" th:text="#{product.basket.add}">
+                                <i class="fa fa-shopping-cart"></i>
                                 افزودن به سبد خرید
                             </a>
                         </div>
@@ -164,7 +164,7 @@
                             <div class="overlay-content">
                                 <h2 th:text="${item.overlayTitle}"></h2>
                                 <p th:text="${item.overlayText}">متن کمکی</p>
-                                <a href="#" class="btn btn-default add-to-cart">
+                                <a href="#" class="btn btn-default add-to-cart" th:text="#{product.basket.add}">
                                     <i class="fa fa-shopping-cart"></i>
                                     افزودن به سبد خرید
                                 </a>
@@ -199,7 +199,7 @@
                                     <img th:src="${box.imageUrl}" alt=""/>
                                     <h2 th:text="${box.name}">$56</h2>
                                     <p th:text="${box.text}">Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart">
+                                    <a href="#" class="btn btn-default add-to-cart" th:text="#{product.basket.add}">
                                         <i class="fa fa-shopping-cart"></i>
                                         افزودن به سبد خرید
                                     </a>
@@ -221,34 +221,30 @@
 </div>
 
 <div id="category-tab" th:fragment="categoryTab">
-    <div th:if="${categoryBox.items.size() > 0}">
-        <div th:each="item: ${categoryBox.items}">
-            <div class="col-sm-12">
-                <ul class="nav nav-tabs">
-                    <li th:classappend="${item.active}? active">
-                        <a th:href="${item.subject}" data-toggle="tab" th:text="${item.subject}">
-                            دسته بندی
-                        </a>
-                    </li>
-                </ul>
-            </div>
+    <div th:each="item: ${categoryBox.items}">
+        <div class="col-sm-12">
+            <ul class="nav nav-tabs">
+                <li th:classappend="${item.active}? active">
+                    <a th:href="${item.name}" data-toggle="tab" th:text="${item.name}">
+                        دسته بندی
+                    </a>
+                </li>
+            </ul>
         </div>
-
-        <div class="tab-content">
-            <div th:each="category: ${categoryBox.items}">
-                <div th:id="${category.css}" class="tab-pane fade  in" th:classappend="${category.active} ? active">
-                    <div class="col-sm-3">
-                        <div class="product-image-wrapper">
-                            <div class="single-products">
-                                <div class="productinfo text-center">
-                                    <img th:src="${category.imageUrl}" alt=""/>
-                                    <h2 th:text="${category.subject}">عنوان دسته بندی</h2>
-                                    <p th:text="${category.text}">متن دسته بندی</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>
-                                        افزودن به سبد خرید
-                                    </a>
-                                </div>
-                            </div>
+    </div>
+    <div class="tab-content" th:each="category: ${categoryBox.items}">
+        <div th:id="${category.css}" class="tab-pane fade  in" th:classappend="${category.active} ? active">
+            <div class="col-sm-3">
+                <div class="product-image-wrapper">
+                    <div class="single-products">
+                        <div class="productinfo text-center">
+                            <img th:src="${category.imageUrl}" alt=""/>
+                            <h2 th:text="${category.subject}">عنوان دسته بندی</h2>
+                            <p th:text="${category.text}">متن دسته بندی</p>
+                            <a href="#" class="btn btn-default add-to-cart" th:text="#{product.basket.add}">
+                                <i class="fa fa-shopping-cart"></i>
+                                افزودن به سبد خرید
+                            </a>
                         </div>
                     </div>
                 </div>
