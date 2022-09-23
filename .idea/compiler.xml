@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="appliker" />
         <module name="login" />
-        <module name="shopping" />
         <module name="user" />
         <module name="web" />
       </profile>

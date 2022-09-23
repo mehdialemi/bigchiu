@@ -16,7 +16,6 @@
 
     <modules>
         <module>web</module>
-        <module>shopping</module>
         <module>user</module>
         <module>appliker</module>
         <module>login</module>
