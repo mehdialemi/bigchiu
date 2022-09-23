@@ -25,8 +25,8 @@
 </head><!--/head-->
 
 <body>
-<header th:insert="fragments/header.html :: header"></header>
-<section th:insert="fragments/slider.html :: slider"></section>
+<header th:insert="fragments/header :: header"></header>
+<section th:insert="fragments/slider :: slider"></section>
 
 <section>
     <div class="container">
@@ -38,22 +38,22 @@
             <div class="col-sm-9 padding-right">
 
                 <div class="features_items"><!--features_items-->
-                    <div th:insert="fragments/container.html :: featuredItems"></div>
+                    <div th:insert="fragments/container :: featuredItems"></div>
                 </div><!--features_items-->
 
-                <div class="category-tab"><!--category-tab-->
-                    <div th:insert="fragments/container.html :: categoryTab"></div>
-                </div>
+                <!--<div class="category-tab">&lt;!&ndash;category-tab&ndash;&gt;-->
+                    <!--<div th:insert="fragments/container.html :: categoryTab"></div>-->
+                <!--</div>-->
 
                 <div class="recommended_items"><!--recommended_items-->
-                    <div th:insert="fragments/container.html :: recommendedItems"></div>
+                    <div th:insert="fragments/container :: recommendedItems"></div>
                 </div><!--/recommended_items-->
             </div>
         </div>
     </div>
 </section>
 
-<footer th:insert="fragments/footer.html :: footer"></footer>
+<footer th:insert="fragments/footer :: footer"></footer>
 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>

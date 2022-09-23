@@ -188,24 +188,21 @@
 
     <h2 class="title text-center" th:text="${recommendedBox.title}">recommended items</h2>
 
-    <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel"
-         th:if="${recommendedBox.items.size() > 0}">
-        <div class="carousel-inner">
-            <div th:each="item: ${recommendedBox.items}">
-                <div class="item " th:classappend="${item.isActive} ? active">
-                    <div th:each="box: ${item.box.items}">
-                        <div class="col-sm-4">
-                            <div class="product-image-wrapper">
-                                <div class="single-products">
-                                    <div class="productinfo text-center">
-                                        <img th:src="${box.imageUrl}" alt=""/>
-                                        <h2 th:text="${box.name}">$56</h2>
-                                        <p th:text="${box.text}">Easy Polo Black Edition</p>
-                                        <a href="#" class="btn btn-default add-to-cart">
-                                            <i class="fa fa-shopping-cart"></i>
-                                            افزودن به سبد خرید
-                                        </a>
-                                    </div>
+    <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" th:each="item: ${recommendedBox.items}">
+            <div class="item " th:classappend="${item.active} ? active">
+                <div th:each="box: ${item.box.items}">
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center">
+                                    <img th:src="${box.imageUrl}" alt=""/>
+                                    <h2 th:text="${box.name}">$56</h2>
+                                    <p th:text="${box.text}">Easy Polo Black Edition</p>
+                                    <a href="#" class="btn btn-default add-to-cart">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        افزودن به سبد خرید
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -228,7 +225,7 @@
         <div th:each="item: ${categoryBox.items}">
             <div class="col-sm-12">
                 <ul class="nav nav-tabs">
-                    <li th:classappend="${item.isActive}? active">
+                    <li th:classappend="${item.active}? active">
                         <a th:href="${item.subject}" data-toggle="tab" th:text="${item.subject}">
                             دسته بندی
                         </a>
@@ -238,8 +235,8 @@
         </div>
 
         <div class="tab-content">
-            <div class="tab-pane fade active in" id="${category.cssId}">
-                <div th:each="category: ${categoryBox.items}">
+            <div th:each="category: ${categoryBox.items}">
+                <div th:id="${category.css}" class="tab-pane fade  in" th:classappend="${category.active} ? active">
                     <div class="col-sm-3">
                         <div class="product-image-wrapper">
                             <div class="single-products">

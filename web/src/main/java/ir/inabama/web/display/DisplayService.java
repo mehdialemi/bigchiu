@@ -26,14 +26,14 @@ public class DisplayService {
 	}
 
 	public DisplayBox getCategoryBox() {
-		List <String> titles = Arrays.asList("tshirt", "blazers", "sunglass", "", "poloshirt");
-		DisplayBox displayBox = createDisplayBox("دسته بندی", "gallery", titles);
+		List <String> names = Arrays.asList("tshirt", "blazers", "sunglass", "", "poloshirt");
+		DisplayBox displayBox = createDisplayBox("دسته بندی", "gallery", names);
 
 		for (int i = 0; i < displayBox.getItems().size(); i++) {
 			DisplayBoxItem item = displayBox.getItems().get(i);
 			DisplayBox box = createDisplayBox(displayBox.getTitle(), "gallery", Arrays.asList("1", "2", "3", "4"));
 			item.setBox(box);
-			item.setCssId(displayBox.getTitle());
+			item.setCss(displayBox.getTitle());
 		}
 		return displayBox;
 	}
@@ -44,10 +44,18 @@ public class DisplayService {
 
 		for (int i = 0; i < names.size(); i++) {
 			DisplayBoxItem item = new DisplayBoxItem();
-			item.setName(names.get(i));
+			String name = names.get(i);
+			item.setName(name);
 			item.setSubject(title);
-			item.setCssId(names.get(i));
+			item.setCss(name);
+			item.setOverlayText(name);
+			item.setOverlayTitle(title);
 			item.setImageUrl("images/home/"+ img + (i + 1) + ".jpg");
+			if (i == 0) {
+				item.setActive(true);
+			} else {
+				item.setActive(false);
+			}
 			displayBox.getItems().add(item);
 		}
 
