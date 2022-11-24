@@ -1,5 +1,6 @@
 package ir.inabama.web;
 
+import ir.inabama.web.display.ClientData;
 import ir.inabama.web.display.DisplayBox;
 import ir.inabama.web.display.DisplayService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +16,7 @@ public class AppController {
 
 	@GetMapping("/")
 	public String index(Model model) {
+		model.addAttribute("client", new ClientData());
 
 		DisplayBox featuredBox = displayService.getFeaturedBox();
 		model.addAttribute("featuredBox", featuredBox);

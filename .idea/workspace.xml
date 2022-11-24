@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="876773f3-384d-4036-aabd-555ddb173574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/ClientData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/user/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appliker/appliker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/appliker/appliker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/AppController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/header.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,16 +91,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="html" value="191" />
-          <entry key="java" value="2271" />
+          <entry key="html" value="235" />
+          <entry key="java" value="2439" />
           <entry key="properties" value="25" />
           <entry key="xml" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="191" />
-          <entry key="JAVA" value="2271" />
+          <entry key="HTML" value="235" />
+          <entry key="JAVA" value="2439" />
           <entry key="PLAIN_TEXT" value="15" />
           <entry key="Properties" value="25" />
           <entry key="XML" value="48" />
@@ -109,21 +109,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="html" value="6" />
+          <entry key="html" value="7" />
           <entry key="ico" value="1" />
-          <entry key="java" value="31" />
+          <entry key="java" value="36" />
           <entry key="png" value="3" />
           <entry key="properties" value="2" />
+          <entry key="rnc" value="1" />
           <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="HTML" value="6" />
+          <entry key="HTML" value="7" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="36" />
           <entry key="Properties" value="2" />
+          <entry key="RNG Compact" value="1" />
           <entry key="XML" value="8" />
         </counts>
       </usages-collector>
@@ -131,39 +133,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/product/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/image/Image.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -188,8 +157,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/fragments/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="62" column="76" lean-forward="true" selection-start-line="62" selection-start-column="76" selection-end-line="62" selection-end-column="76" />
+            <state relative-caret-position="142">
+              <caret line="71" column="73" selection-start-line="71" selection-start-column="73" selection-end-line="71" selection-end-column="73" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#2#21#0" expanded="true" />
@@ -201,18 +170,66 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/logo.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/fragments/container.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2250">
+              <folding>
+                <element signature="e#2#20#0" expanded="true" />
+                <element signature="e#2#20#0" expanded="true" />
+                <element signature="e#2#22#0" expanded="true" />
+                <element signature="e#2#21#0" expanded="true" />
+                <element signature="e#2#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/image/ImageController.java">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/user/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="85">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/DisplayBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/DisplayService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/AppController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/ClientData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -232,8 +249,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -268,8 +285,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/resources/templates/fragments/slider.html" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/templates/fragments/footer.html" />
         <option value="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/DisplayItem.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/ProductDisplayItem.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/Category.java" />
@@ -279,8 +294,6 @@
         <option value="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/ProductBox.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/ProductBoxItem.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/ProductDisplayService.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/AppController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/DisplayBox.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/DisplayBoxItem.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/languages/messages_en.properties" />
         <option value="$PROJECT_DIR$/web/src/main/resources/languages/messages.properties" />
@@ -318,6 +331,10 @@
         <option value="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/image/Image.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/user/User.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/DisplayBox.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/AppController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/ClientData.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/fragments/header.html" />
       </list>
     </option>
@@ -425,6 +442,26 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="display" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigchiu" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigchiu" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -435,27 +472,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigchiu" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigchiu" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bigchiu" type="b2602c69:ProjectViewProjectNode" />
@@ -490,7 +506,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1669323667151" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1669324845878" />
     <property name="last_opened_file_path" value="$USER_HOME$/adin/projects/open-metadata" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -645,18 +661,18 @@
       <workItem from="1667815508997" duration="1180000" />
       <workItem from="1667823542786" duration="656000" />
       <workItem from="1669304259089" duration="1735000" />
-      <workItem from="1669306141743" duration="10221000" />
+      <workItem from="1669306141743" duration="11404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61728000" />
+    <option name="totallyTimeSpent" value="62911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979339" visible="true" weight="0.33687404" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979339" visible="true" weight="0.2336874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -667,7 +683,7 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293919" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43739566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43739566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4624374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -752,10 +768,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shopping/src/main/java/ir/inabama/shopping/Application.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/config/SecurityConfig.java" />
-    <entry file="file://$PROJECT_DIR$/shopping/src/main/java/ir/inabama/shopping/config/ErrorController.java" />
-    <entry file="file://$PROJECT_DIR$/shopping/src/main/java/ir/inabama/shopping/config/SecurityConfig.java" />
     <entry file="file://$PROJECT_DIR$/shopping/src/main/java/ir/inabama/shopping/config/SessionService.java" />
     <entry file="file://$PROJECT_DIR$/shopping/src/main/java/ir/inabama/shopping/clothes/ClothingService.java" />
     <entry file="file://$PROJECT_DIR$/shopping/src/main/java/ir/inabama/shopping/clothes/ClothingRepository.java" />
@@ -823,17 +835,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/AppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/product/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -883,25 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/DisplayService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/DisplayBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -984,6 +973,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/bigchiu-logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/logochiu.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/fragments/container.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2250">
+          <folding>
+            <element signature="e#2#20#0" expanded="true" />
+            <element signature="e#2#20#0" expanded="true" />
+            <element signature="e#2#22#0" expanded="true" />
+            <element signature="e#2#21#0" expanded="true" />
+            <element signature="e#2#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/DisplayBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/DisplayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/display/ClientData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
@@ -994,19 +1052,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/bigchiu-logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/logochiu.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/fragments/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="62" column="76" lean-forward="true" selection-start-line="62" selection-start-column="76" selection-end-line="62" selection-end-column="76" />
+        <state relative-caret-position="142">
+          <caret line="71" column="73" selection-start-line="71" selection-start-column="73" selection-end-line="71" selection-end-column="73" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#2#21#0" expanded="true" />
