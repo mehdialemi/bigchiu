@@ -26,9 +26,6 @@ public class ClothingItem {
     private Date date;
 
     @Embedded
-    private ImageUrl imageUrl;
-
-    @Embedded
     private ClothingItemStats stats;
 
 }

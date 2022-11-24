@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fa" xmlns:th="http://www.thymeleaf.org">
+
+<head th:insert="fragments/header.html :: default-head"></head>
+<body style="background-color: #f0f4c3">
+<div class="container text-center">
+    <div>
+        <h1>Spring Boot File Upload & Download</h1>
+    </div>
+    <div class="card" style="width: 18rem;" align="center">
+        <div class="card-body" align="center">
+            <h2 class="card-title">آپلود عکس</h2>
+            <h6 class="text-success">[[${success}]]</h6>
+            <div class="mb-3">
+                <form th:action="@{/image/upload}" method="post" enctype="multipart/form-data">
+                    <input class="form-control" name="file" type="file" id="formFile"><br/>
+                    <input type="submit" value="Upload" class="btn btn-warning">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <th:block th:each="studList: ${list}">
+                        <div class="col-sm-3">
+                            <div><a th:href="@{'/downloadfile?id=' + ${studList.id}}"><i class="fa fa-download"></i></a>
+                            </div>
+                            <div><img th:src="@{'/image?id='+ ${studList.id}}" width="100px" height="50px"></div>
+                            <div>[[${studList.profilePicture}]]</div>
+                            <div>([[${studList.size}]]) B</div>
+                        </div>
+                    </th:block>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+
+</html>

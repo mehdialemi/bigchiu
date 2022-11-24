@@ -288,7 +288,7 @@
         $('body').append('<div class="lg-backdrop"></div>');
         $('.lg-backdrop').css('transition-duration', this.s.backdropDuration + 'ms');
 
-        // Create gallery items
+        // Create image items
         for (i = 0; i < this.$items.length; i++) {
             list += '<div class="lg-item"></div>';
         }
@@ -329,7 +329,7 @@
             this.$outer.addClass('lg-use-css3');
         }
 
-        // For fixed height gallery
+        // For fixed height image
         _this.setTop();
         $(window).on('resize.lg orientationchange.lg', function() {
             setTimeout(function() {
@@ -378,12 +378,12 @@
             this.$outer.find('.lg-toolbar').append('<a id="lg-download" target="_blank" download class="lg-download lg-icon"></a>');
         }
 
-        // Store the current scroll top value to scroll back after closing the gallery..
+        // Store the current scroll top value to scroll back after closing the image..
         this.prevScrollTop = $(window).scrollTop();
 
     };
 
-    // For fixed height gallery
+    // For fixed height image
     Plugin.prototype.setTop = function() {
         if (this.s.height !== '100%') {
             var wH = $(window).height();
@@ -720,7 +720,7 @@
             var _speed = 0;
 
             // Do not change the delay value because it is required for zoom plugin.
-            // If gallery opened from direct url (hash) speed value should be 0
+            // If image opened from direct url (hash) speed value should be 0
             if (delay && !$('body').hasClass('lg-from-hash')) {
                 _speed = delay;
             }
@@ -1253,7 +1253,7 @@
 
         if (_this.s.closable) {
 
-            // If you drag the slide and release outside gallery gets close on chrome
+            // If you drag the slide and release outside image gets close on chrome
             // for preventing this check mousedown and mouseup happened on .lg-item or lg-outer
             _this.$outer.on('mousedown.lg', function(e) {
 
@@ -1290,7 +1290,7 @@
 
 
         /**
-         * if d is false or undefined destroy will only close the gallery
+         * if d is false or undefined destroy will only close the image
          * plugins instance remains with the element
          *
          * if d is true destroy will completely remove the plugin

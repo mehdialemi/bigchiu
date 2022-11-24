@@ -8,7 +8,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/login/pom.xml" />
         <option value="$PROJECT_DIR$/shopping/pom.xml" />
+        <option value="$PROJECT_DIR$/user/pom.xml" />
       </set>
     </option>
   </component>
