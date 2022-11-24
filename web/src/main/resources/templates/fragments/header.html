@@ -70,10 +70,11 @@
                 <div class="shop-menu pull-right">
                     <ul class="nav navbar-nav">
                         <li><a href="contact-us.html">تماس با ما</a></li>
-                        <li th:if="${client.isLogin()}"><a href="cart.html"><i class="fa fa-shopping-cart"></i> سبد خرید </a></li>
-                        <li th:if="${client.isLogin()}"><a href="#"><i class="fa fa-user"></i> حساب کاربری </a></li>
-                        <li th:if="${client.isLogin()}"><a href="#"><i class="fa fa-star"></i> نشان شده ها </a></li>
-                        <li th:if="${!client.isLogin()}"><a href="login.html"><i class="fa fa-lock"></i> ورود </a></li>
+                        <li th:if="${mymeta.isLogin()}"><a th:href="@{/shop/user/basket}"><i class="fa fa-shopping-cart"></i> سبد خرید </a></li>
+                        <li th:if="${mymeta.isLogin()}"><a href="#"><i class="fa fa-user"></i> حساب کاربری </a></li>
+                        <li th:if="${mymeta.isLogin()}"><a href="#"><i class="fa fa-star"></i> نشان شده ها </a></li>
+                        <li th:if="${mymeta.isLogin()}"><a th:href="@{/logout}"><i class="fa fa-lock"></i> خروج </a></li>
+                        <li th:if="${!mymeta.isLogin()}"><a th:href="@{/login}"><i class="fa fa-lock"></i> ورود </a></li>
                         <li><a href="index.html" class="active" th:text="#{index.mainmenu.home}">Home</a></li>
                     </ul>
                 </div>
