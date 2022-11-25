@@ -55,14 +55,14 @@
     </div>
 </div>
 
-<div th:fragment="topMenu" class="header-middle">
+<div th:fragment="topMenu" class="header-middle" th:with="isLogin=${(mymeta != null)? mymeta.isLogin() : false}">
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
                 <ul class="nav navbar-nav">
                     <li>
                         <div class="logo pull-left">
-                            <a th:href="@{/index}"><img src="images/home/logo-chiu.png" alt="bigchiu" width="155" height="45" /></a>
+                            <a th:href="@{/}"><img th:src="@{/images/home/logo-chiu.png}" alt="bigchiu" width="155" height="45" /></a>
                         </div>
                     </li>
 
@@ -72,11 +72,11 @@
                 <div class="shop-menu pull-right">
                     <ul class="nav navbar-nav">
                         <li><a href="contact-us.html">تماس با ما</a></li>
-                        <li th:if="${mymeta != null && mymeta.isLogin()}"><a th:href="@{/shop/user/basket}"><i class="fa fa-shopping-cart"></i> سبد خرید </a></li>
-                        <li th:if="${mymeta != null && mymeta.isLogin()}"><a href="#"><i class="fa fa-user"></i> حساب کاربری </a></li>
-                        <li th:if="${mymeta != null && mymeta.isLogin()}"><a href="#"><i class="fa fa-star"></i> نشان شده ها </a></li>
-                        <li th:if="${mymeta != null && mymeta.isLogin()}"><a th:href="@{/logout}"><i class="fa fa-lock"></i> خروج </a></li>
-                        <li th:if="${mymeta != null && !mymeta.isLogin()}"><a th:href="@{/login}"><i class="fa fa-lock"></i> ورود </a></li>
+                        <li th:if="${isLogin}"><a th:href="@{/shop/user/basket}"><i class="fa fa-shopping-cart"></i> سبد خرید </a></li>
+                        <li th:if="${isLogin}"><a href="#"><i class="fa fa-user"></i> حساب کاربری </a></li>
+                        <li th:if="${isLogin}"><a href="#"><i class="fa fa-star"></i> نشان شده ها </a></li>
+                        <li th:if="${isLogin}"><a th:href="@{/logout}"><i class="fa fa-lock"></i> خروج </a></li>
+                        <li th:if="${!isLogin}"><a th:href="@{/login}"><i class="fa fa-lock"></i> ورود </a></li>
                         <li><a th:href="@{/}" class="active" th:text="#{index.mainmenu.home}">Home</a></li>
                     </ul>
                 </div>
