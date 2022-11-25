@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: 'iranYekan';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('/fonts/iranyekanweblight(fanum).eot');
+    src: url('/fonts/iranyekanweblight(fanum).ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('/fonts/iranyekanweblight(fanum).svg') format("svg"); /* Legacy iOS */
+    src: url('/fonts/iranyekanweblight(fanum).woff') format("woff"); /* Modern Browsers */
+    src: url('/fonts/iranyekanweblight(fanum).woff2') format("woff2"); /* Modern Browsers */
+}
+
+.login-form-box {
+    font-family: iranYekan, 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background: #47c8f7;
+    border-color: #00aeef;
+    alignment: center;
+    direction: rtl;
+    text-align: right;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.login-input {
+    width: 80%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.login-label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.login-submit {
+    background-color: #0000ff;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    display: block;
+    alignment: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: inherit;
+    width: 100%;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

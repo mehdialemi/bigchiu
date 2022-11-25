@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="fa" xmlns:th="http://www.thymeleaf.org">
-
 <head th:insert="fragments/header.html :: default-head"></head>
 
 <body>
+
+<header th:insert="fragments/header :: header"></header>
 
 <div th:if="${param.error}">
     Invalid username and password.
@@ -12,12 +13,43 @@
     You have been logged out.
 </div>
 
-<form th:action="@{/login}" method="post">
-    <div><label> User Name : <input type="text" name="username"/> </label></div>
-    <div><label> Password: <input type="password" name="password"/> </label></div>
-    <div><input type="submit" value="Sign In"/></div>
-</form>
+<div class="login-form-box container">
 
+    <form th:action="@{/login}" method="post">
+
+        <div class="row">
+            <div class="col-75">
+                <input class="login-input" type="text" name="username" th:placeholder="#{login.username}">
+            </div>
+            <div class="col-25">
+                <label class="login-label" th:text="#{login.username}"></label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-75">
+                <input class="login-input" type="password" name="password"
+                       th:placeholder="#{login.password}">
+            </div>
+            <div class="col-25">
+                <label class="login-label" th:text="#{login.password}"></label>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <input type="submit" class="login-submit" value="Submit" th:value="#{login.login}">
+        </div>
+
+    </form>
+</div>
+
+<footer th:insert="fragments/footer :: footer"></footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/price-range.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>

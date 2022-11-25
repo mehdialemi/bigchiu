@@ -20,7 +20,7 @@
 
 body {
   font-family: iranYekan, 'Roboto', sans-serif;
-  background:;
+  /*background:;*/
   position: relative;
   font-weight: normal;
 }
@@ -275,7 +275,7 @@ a#scrollUp i{
   outline: medium none;
   padding-left: 10px;
   width: 155px;
-  background-image: url("/static/images/home/searchicon.png")
+  background-image: url("/images/home/searchicon.png");
   background-repeat: no-repeat;
   background-position: 130px;
 }
@@ -1445,11 +1445,21 @@ h2.title {
 }
 
 .login-form {
-
+    display: block;
+    background: #FE980F;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-family:  iranYekan, 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    margin-top: 75px;
+    text-align: center;
 }
 
 .signup-form {
-
+    display: block;
+    margin-bottom: 185px;
+    margin-top: 185px;
 }
 
 .login-form h2, .signup-form h2 {
@@ -2153,7 +2163,7 @@ h2.title {
 
 .rating-area {
   border: 1px solid #F7F7F0;
-  direction: block;
+  direction: inherit;
   overflow: hidden;
 }
 

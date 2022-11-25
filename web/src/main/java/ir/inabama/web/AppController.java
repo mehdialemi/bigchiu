@@ -29,19 +29,15 @@ public class AppController {
 					myMeta.setLogin(true);
 				}
 
-				DisplayBox featuredBox = displayService.getFeaturedBox();
-				model.addAttribute("featuredBox", featuredBox);
 
-				DisplayBox recommendedBox = displayService.getRecommendedBox();
-				model.addAttribute("recommendedBox", recommendedBox);
-
-				DisplayBox categoryBox = displayService.getCategoryBox();
-				model.addAttribute("categoryBox", categoryBox);
 
 				return "index";
 			}
 		} finally {
 			model.addAttribute("mymeta", myMeta);
+			model.addAttribute("featuredBox", displayService.getFeaturedBox());
+			model.addAttribute("recommendedBox", displayService.getRecommendedBox());
+			model.addAttribute("categoryBox", displayService.getCategoryBox());
 		}
 	}
 
