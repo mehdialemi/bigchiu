@@ -26,7 +26,7 @@ public class DisplayService {
 	}
 
 	public DisplayBox getCategoryBox() {
-		List <String> names = Arrays.asList("tshirt", "blazers", "sunglass", "poloshirt");
+		List <String> names = Arrays.asList("تی شرت", "مانتو", "عینک", "شلوار");
 		DisplayBox displayBox = createDisplayBox("دسته بندی", "image", names);
 
 		for (int i = 0; i < displayBox.getItems().size(); i++) {

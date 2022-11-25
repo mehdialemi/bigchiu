@@ -11,44 +11,45 @@
     src: url('/fonts/iranyekanweblight(fanum).woff2') format("woff2"); /* Modern Browsers */
 }
 
-.login-form-box {
+.form {
     font-family: iranYekan, 'Roboto', sans-serif;
+    /*background: #b3b3b3;*/
+    font-size: large;
+    color: #505050;
     box-sizing: border-box;
-    background: #47c8f7;
     border-color: #00aeef;
     alignment: center;
     direction: rtl;
-    text-align: right;
-    max-width: 400px;
-    max-height: 400px;
+    text-align: center;
+    max-width: 500px;
+    max-height: 500px;
+    margin-bottom: 20px;
 }
 
-.login-input {
-    width: 80%;
-    padding: 15px;
+.input{
+    width: 70%;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
 }
 
-.login-label {
+.label {
     padding: 12px 12px 12px 0;
-    display: inline-block;
+    color: #505050;
 }
 
-.login-submit {
-    background-color: #0000ff;
-    font-size: large;
-    font-weight: bold;
-    color: white;
-    display: block;
+.submit {
+    background-color: #d7d7d7;
+    display: inline-block;
+    margin-bottom: 20px;
     alignment: center;
     padding: 12px 20px;
-    border: none;
+    border: #8c6841;
     border-radius: 4px;
     cursor: pointer;
     float: inherit;
-    width: 100%;
+    width: 60%;
 }
 
 .col-25 {

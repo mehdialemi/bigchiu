@@ -13,30 +13,30 @@
     You have been logged out.
 </div>
 
-<div class="login-form-box container">
+<div class="form container">
 
     <form th:action="@{/login}" method="post">
 
         <div class="row">
             <div class="col-75">
-                <input class="login-input" type="text" name="username" th:placeholder="#{login.username}">
+                <input class="input" type="text" name="username" th:placeholder="#{login.username}">
             </div>
             <div class="col-25">
-                <label class="login-label" th:text="#{login.username}"></label>
+                <label class="label" th:text="#{login.username}"></label>
             </div>
         </div>
         <div class="row">
             <div class="col-75">
-                <input class="login-input" type="password" name="password"
+                <input class="input" type="password" name="password"
                        th:placeholder="#{login.password}">
             </div>
             <div class="col-25">
-                <label class="login-label" th:text="#{login.password}"></label>
+                <label class="label" th:text="#{login.password}"></label>
             </div>
         </div>
         <br>
         <div class="row">
-            <input type="submit" class="login-submit" value="Submit" th:value="#{login.login}">
+            <input type="submit" class="submit" value="Submit" th:value="#{login.login}">
         </div>
 
     </form>

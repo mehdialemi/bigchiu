@@ -973,35 +973,43 @@ h2.title {
 
 .choose ul li a:hover {
     background: none;
-    color: #FE980F;
 }
 
 .category-tab {
     overflow: hidden;
+    padding: 10px;
 }
 
 .category-tab ul {
-    background: #40403E;
-    border-bottom: 1px solid #FE980F;
-    list-style: none outside none;
-    margin: 0 0 30px;
+    list-style-type: none;
+    font-weight: bolder;
+    margin: 0;
     padding: 0;
-    width: 100%;
+    overflow: hidden;
+    background-color: #495057;
+    border-top: #505050;
+    border-bottom: #505050;
+    color: white;
+}
+
+.category-tab ul li {
+    float: right;
+    border-left:1px solid #d7d7d7;
+    min-width: 10%;
 }
 
 .category-tab ul li a {
-    border: 0 none;
-    border-radius: 0;
-    color: #B3AFA8;
     display: block;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
     font-family: iranYekan, 'Roboto', sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
 }
 
 .category-tab ul li a:hover {
-    background: #FE980F;
-    color: #fff;
+    background:lightblue;
+    color: #555555;
 }
 
 .nav-tabs li.active a, .nav-tabs li.active a:hover, .nav-tabs li.active a:focus {
@@ -1009,9 +1017,9 @@ h2.title {
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    background-color: #FE980F;
-    border: 0px;
-    color: #FFFFFF;
+    background-color: lightgrey;
+    /*border: 0;*/
+    color: #555555;
     cursor: default;
     margin-right: 0;
     margin-left: 0;
