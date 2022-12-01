@@ -29,32 +29,6 @@
 
 </head>
 
-<div th:fragment="headerTop" class="header_top">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="contactinfo">
-                    <ul class="nav nav-pills">
-                        <li><a href="#"><i class="fa fa-phone"></i>09127292815</a></li>
-                        <li><a href="#"><i class="fa fa-envelope"></i>info@chiu.ir</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="social-icons pull-right">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div th:fragment="topMenu" class="header-middle" th:with="isLogin=${(mymeta != null)? mymeta.isLogin() : false}">
     <div class="container">
         <div class="row">
@@ -71,10 +45,11 @@
             <div class="col-sm-8">
                 <div class="shop-menu pull-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="contact-us.html">تماس با ما</a></li>
-                        <li th:if="${isLogin}"><a th:href="@{/shop/user/basket}"><i class="fa fa-shopping-cart"></i> سبد خرید </a></li>
-                        <li th:if="${isLogin}"><a href="#"><i class="fa fa-user"></i> حساب کاربری </a></li>
-                        <li th:if="${isLogin}"><a href="#"><i class="fa fa-star"></i> نشان شده ها </a></li>
+                        <li th:if="${isLogin}"><a th:href="@{/admin/product/create}"><i class="fa fa-shopping-cart"></i> محصول جدید </a></li>
+                        <li th:if="${isLogin}"><a href="@{/admin/product/list}"><i class="fa fa-user"></i> محصولات </a></li>
+                        <li th:if="${isLogin}"><a href="@{/admin/sellers/list}"><i class="fa fa-star"></i> فروشندگان </a></li>
+                        <li th:if="${isLogin}"><a href="@{/admin/finance}"><i class="fa fa-star"></i> مالی </a></li>
+                        <li th:if="${isLogin}"><a href="@{/admin/reports/}"><i class="fa fa-star"></i> گزارش ها </a></li>
                         <li th:if="${isLogin}"><a th:href="@{/logout}"><i class="fa fa-lock"></i> خروج </a></li>
                         <li th:if="${!isLogin}"><a th:href="@{/login}"><i class="fa fa-lock"></i> ورود </a></li>
                         <li><a th:href="@{/}" class="active" th:text="#{index.mainmenu.home}">Home</a></li>
@@ -85,27 +60,7 @@
     </div>
 </div><!--/header-middle-->
 
-<div th:fragment="headerBottom" class="header-bottom"><!--header-bottom-->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-9">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
-
 <header th:fragment="header"><!--header-->
-    <div th:replace=":: headerTop"></div>
-
     <div th:replace=":: topMenu"></div>
 
     <!--<div th:replace=":: headerBottom"></div>-->

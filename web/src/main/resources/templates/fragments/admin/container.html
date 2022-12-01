@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fa" xmlns:th="http://www.thymeleaf.org">
+
+<body>
+
+<div class="right-sidebar" id="rightSideBar" th:fragment="rightSideBar">
+    <h2>Category</h2>
+    <div class="panel-group category-products" id="accordian"><!--category-productsr-->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordian" href="#sportswear">
+                        <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+                        Sportswear
+                    </a>
+                </h4>
+            </div>
+            <div id="sportswear" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <ul>
+                        <li><a href="#">Nike </a></li>
+                        <li><a href="#">Under Armour </a></li>
+                        <li><a href="#">Adidas </a></li>
+                        <li><a href="#">Puma</a></li>
+                        <li><a href="#">ASICS </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordian" href="#mens">
+                        <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+                        Mens
+                    </a>
+                </h4>
+            </div>
+            <div id="mens" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <ul>
+                        <li><a href="#">Fendi</a></li>
+                        <li><a href="#">Guess</a></li>
+                        <li><a href="#">Valentino</a></li>
+                        <li><a href="#">Dior</a></li>
+                        <li><a href="#">Versace</a></li>
+                        <li><a href="#">Armani</a></li>
+                        <li><a href="#">Prada</a></li>
+                        <li><a href="#">Dolce and Gabbana</a></li>
+                        <li><a href="#">Chanel</a></li>
+                        <li><a href="#">Gucci</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordian" href="#womens">
+                        <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+                        Womens
+                    </a>
+                </h4>
+            </div>
+            <div id="womens" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <ul>
+                        <li><a href="#">Fendi</a></li>
+                        <li><a href="#">Guess</a></li>
+                        <li><a href="#">Valentino</a></li>
+                        <li><a href="#">Dior</a></li>
+                        <li><a href="#">Versace</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title"><a href="#">Kids</a></h4>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title"><a href="#">Fashion</a></h4>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title"><a href="#">Households</a></h4>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title"><a href="#">Interiors</a></h4>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title"><a href="#">Clothing</a></h4>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title"><a href="#">Bags</a></h4>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title"><a href="#">Shoes</a></h4>
+            </div>
+        </div>
+    </div><!--/category-products-->
+
+    <div class="brands_products"><!--brands_products-->
+        <h2>Brands</h2>
+        <div class="brands-name">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="#"> <span class="pull-right">(50)</span>Acne</a></li>
+                <li><a href="#"> <span class="pull-right">(56)</span>Grüne Erde</a></li>
+                <li><a href="#"> <span class="pull-right">(27)</span>Albiro</a></li>
+                <li><a href="#"> <span class="pull-right">(32)</span>Ronhill</a></li>
+                <li><a href="#"> <span class="pull-right">(5)</span>Oddmolly</a></li>
+                <li><a href="#"> <span class="pull-right">(9)</span>Boudestijn</a></li>
+                <li><a href="#"> <span class="pull-right">(4)</span>Rösch creative culture</a></li>
+            </ul>
+        </div>
+    </div><!--/brands_products-->
+
+    <div class="price-range"><!--price-range-->
+        <h2>Price Range</h2>
+        <div class="well text-center">
+            <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5"
+                   data-slider-value="[250,450]" id="sl2"><br/>
+            <b class="pull-left">$ 0</b> <b class="pull-right">$ 600</b>
+        </div>
+    </div><!--/price-range-->
+
+    <div class="shipping text-center"><!--shipping-->
+        <img src="images/home/shipping.jpg" alt=""/>
+    </div><!--/shipping-->
+
+</div>
+
+<div id="featured-items" class="features_items" th:fragment="featuredItems">
+    <h2 class="title text-center" th:text="${featuredBox.title}"></h2>
+    <div id="items-loop">
+        <div class="col-sm-4" th:each="item: ${featuredBox.items}">
+            <div class="product-image-wrapper">
+                <div class="single-products">
+                    <div class="productinfo text-center">
+                        <img th:src="${item.imageUrl}" alt=""/>
+                        <h2 th:text="${item.name}">نام کالا</h2>
+                        <p th:text="${item.text}">توضیحات کالا</p>
+                        <a href="#" class="btn btn-default add-to-cart" th:text="#{product.basket.add}">
+                            <i class="fa fa-shopping-cart"></i>
+                            افزودن به سبد خرید
+                        </a>
+                    </div>
+                    <div class="product-overlay">
+                        <div class="overlay-content">
+                            <h2 th:text="${item.overlayTitle}"></h2>
+                            <p th:text="${item.overlayText}">متن کمکی</p>
+                            <a href="#" class="btn btn-default add-to-cart" th:text="#{product.basket.add}">
+                                <i class="fa fa-shopping-cart"></i>
+                                افزودن به سبد خرید
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="choose">
+                    <ul class="nav nav-pills nav-justified">
+                        <li>
+                            <a href="#"><i class="fa fa-plus-square"></i>
+                                <label th:text="#{product.favorite.add}">
+                                    افزودن به علاقه مندی
+                                </label>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-plus-square"></i>
+                                <label th:text="#{product.compare.add}">
+                                    مقایسه با دیگر محصولات
+                                </label>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--features_items-->
+
+<div id="recommendedItems" th:fragment="recommendedItems">
+
+    <h2 class="title text-center" th:text="${recommendedBox.title}">recommended items</h2>
+
+    <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" th:each="item: ${recommendedBox.items}">
+            <div class="item " th:classappend="${item.active} ? active">
+                <div th:each="box: ${item.box.items}">
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center">
+                                    <img th:src="${box.imageUrl}" alt=""/>
+                                    <h2 th:text="${box.name}">$56</h2>
+                                    <p th:text="${box.text}">Easy Polo Black Edition</p>
+                                    <a href="#" class="btn btn-default add-to-cart" th:text="#{product.basket.add}">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        افزودن به سبد خرید
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+        </a>
+    </div>
+</div>
+
+</body>

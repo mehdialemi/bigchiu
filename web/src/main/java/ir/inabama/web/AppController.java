@@ -23,13 +23,11 @@ public class AppController {
 		try {
 			if (request.isUserInRole("ADMIN")) {
 				myMeta.setLogin(true);
-				return "index";
+				return "admin/index";
 			} else {
 				if (request.isUserInRole("USER")) {
 					myMeta.setLogin(true);
 				}
-
-
 
 				return "index";
 			}
@@ -42,7 +40,7 @@ public class AppController {
 	}
 
 	@GetMapping("/admin")
-	public String admin() { return "/admin/admin";}
+	public String admin() { return "/admin/index";}
 
 	@GetMapping("/login")
 	public String login() {
