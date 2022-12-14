@@ -45,13 +45,12 @@
             <div class="col-sm-8">
                 <div class="shop-menu pull-right">
                     <ul class="nav navbar-nav">
-                        <li th:if="${isLogin}"><a th:href="@{/admin/product/create}"><i class="fa fa-shopping-cart"></i> محصول جدید </a></li>
-                        <li th:if="${isLogin}"><a href="@{/admin/product/list}"><i class="fa fa-user"></i> محصولات </a></li>
-                        <li th:if="${isLogin}"><a href="@{/admin/sellers/list}"><i class="fa fa-star"></i> فروشندگان </a></li>
-                        <li th:if="${isLogin}"><a href="@{/admin/finance}"><i class="fa fa-star"></i> مالی </a></li>
-                        <li th:if="${isLogin}"><a href="@{/admin/reports/}"><i class="fa fa-star"></i> گزارش ها </a></li>
                         <li th:if="${isLogin}"><a th:href="@{/logout}"><i class="fa fa-lock"></i> خروج </a></li>
-                        <li th:if="${!isLogin}"><a th:href="@{/login}"><i class="fa fa-lock"></i> ورود </a></li>
+                        <li th:if="${isLogin}"><a th:href="@{/admin/reports/}"><i class="fa fa-star"></i> گزارش ها </a></li>
+                        <li th:if="${isLogin}"><a th:href="@{/admin/product/list}"><i class="fa fa-user"></i> محصولات </a></li>
+                        <li th:if="${isLogin}"><a th:href="@{/admin/sellers/list}"><i class="fa fa-star"></i> فروشندگان </a></li>
+                        <li th:if="${isLogin}"><a th:href="@{/admin/finance}"><i class="fa fa-star"></i> مالی </a></li>
+                        <li th:if="${isLogin}"><a th:href="@{/admin/product/create}"><i class="fa fa-shopping-cart"></i> محصول جدید </a></li>
                         <li><a th:href="@{/}" class="active" th:text="#{index.mainmenu.home}">Home</a></li>
                     </ul>
                 </div>

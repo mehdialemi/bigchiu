@@ -1,5 +1,6 @@
 package ir.inabama.web.image;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import ir.inabama.web.product.Product;
 import lombok.Data;
 
@@ -23,6 +24,7 @@ public class Image {
 
 	private String fileName;
 
+	@JsonIgnore
 	@Lob
 	@Column(nullable = false)
 	private byte[] imageBytes;

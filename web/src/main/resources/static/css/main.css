@@ -563,6 +563,9 @@ ul.sub-menu {
 ******* Home ******
 **************************/
 
+.container {
+    direction: rtl;
+}
 #slider {
     padding-bottom: 45px;
 }

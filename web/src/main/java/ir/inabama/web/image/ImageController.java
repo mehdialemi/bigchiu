@@ -1,35 +1,37 @@
 package ir.inabama.web.image;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletResponse;
+import javax.websocket.server.PathParam;
 import java.io.IOException;
 
-@RestController
-@RequestMapping("image")
+@Controller
 public class ImageController {
 
-	@Autowired
-	private ImageService service;
+    @Autowired
+    private ImageService service;
 
-	@PostMapping("/upload")
-	public String save(@RequestParam("image") MultipartFile file, Model model) throws IOException {
-		Image image = service.save(file.getOriginalFilename(), file.getBytes());
-		model.addAttribute("image", image);
-		return "image";
-	}
+    @PostMapping("/image/upload")
+    public String save(@RequestParam("productId") Long productId, @RequestParam("image") MultipartFile file)
+            throws IOException {
+        Image image = service.save(productId, file.getOriginalFilename(), file.getBytes());
+        return "redirect:/admin/product/create?id=" + image.getProduct().getId();
+    }
 
-	@GetMapping("{id}")
-	@ResponseBody
-	void get(@PathVariable("id") String imageId, HttpServletResponse response)
-			throws Exception {
-		Image image = service.get(imageId);
-		response.setContentType("image/jpeg, image/jpg, image/png, image/gif");
-		response.getOutputStream().write(image.getImageBytes());
-		response.getOutputStream().close();
-	}
+    @GetMapping("/image/{id}")
+    @ResponseBody
+    public void get(@PathVariable("id") String id, HttpServletResponse response)
+            throws Exception {
+        Image image = service.get(id);
+        String types = "image/jpeg, image/jpg, image/png, image/gif";
+        response.setContentType(types);
+        response.getOutputStream().write(image.getImageBytes());
+        response.getOutputStream().close();
+    }
 
 }
