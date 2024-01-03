@@ -12,12 +12,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="appliker" target="11" />
-      <module name="bigchiu" target="11" />
       <module name="login" target="11" />
       <module name="shopping" target="11" />
       <module name="user" target="1.8" />
-      <module name="web" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

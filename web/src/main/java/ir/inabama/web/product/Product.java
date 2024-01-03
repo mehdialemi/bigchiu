@@ -21,6 +21,8 @@ public class Product {
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date date = new Date();
 
+	private String name;
+
 	private String category;
 
 	private String color;
