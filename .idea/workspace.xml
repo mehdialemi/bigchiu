@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="876773f3-384d-4036-aabd-555ddb173574" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/product/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/menu/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/menu/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/product/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/blog-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/contact-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/product/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/product-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/product/product-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/product/product-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/product/product-details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +66,8 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="CSS File" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -370,27 +369,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/hamid/IdeaProjects/bigchiu/web/src/test/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;bcf57ba9262f82b2a66dd634cf3f71a6&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/home/hamid/IdeaProjects/bigchiu/web/src/test/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "bcf57ba9262f82b2a66dd634cf3f71a6",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/src/test/resources" />
@@ -405,6 +405,9 @@
       <recent name="$PROJECT_DIR$/web/src/main/resources/templates/fragments" />
       <recent name="$PROJECT_DIR$/web/src/main/resources/templates" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ir.inabama" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -413,19 +416,16 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Web Application">
-    <configuration name="ApplicationTest.addProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web" />
+  <component name="RunManager" selected="Spring Boot.Application (3)">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ir.inabama.Main" />
+      <module name="api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ir.inabama.web.*" />
+          <option name="PATTERN" value="ir.inabama.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ir.inabama.web" />
-      <option name="MAIN_CLASS_NAME" value="ir.inabama.web.ApplicationTest" />
-      <option name="METHOD_NAME" value="addProduct" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -466,6 +466,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ir.inabama.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ir.inabama.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="login" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ir.inabama.login.Application" />
@@ -498,22 +512,24 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="JavaScript Debug.upload.html" />
       <item itemvalue="JavaScript Debug.product.html" />
       <item itemvalue="JavaScript Debug.product-details.html" />
-      <item itemvalue="JUnit.ApplicationTest.addProduct" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.Application (1)" />
       <item itemvalue="Spring Boot.Application (2)" />
       <item itemvalue="Spring Boot.Web Application" />
+      <item itemvalue="Spring Boot.Application (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (3)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JavaScript Debug.product.html" />
         <item itemvalue="JavaScript Debug.upload.html" />
         <item itemvalue="JavaScript Debug.product-details.html" />
-        <item itemvalue="JUnit.ApplicationTest.addProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -556,7 +572,9 @@
       <workItem from="1704305067217" duration="7505000" />
       <workItem from="1706194062456" duration="1307000" />
       <workItem from="1706220620615" duration="520000" />
-      <workItem from="1706299159916" duration="2271000" />
+      <workItem from="1706299159916" duration="4356000" />
+      <workItem from="1706530252848" duration="6273000" />
+      <workItem from="1707558252802" duration="2450000" />
     </task>
     <servers />
   </component>
@@ -664,7 +682,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/AppController.java</url>
-          <line>75</line>
+          <line>76</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

@@ -7,6 +7,7 @@ import lombok.Data;
 import javax.persistence.*;
 import java.util.Date;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 @Data
@@ -32,6 +33,10 @@ public class Product {
 	private Double size;
 
 	private String model;
+
+	@ElementCollection
+	@CollectionTable(name = "detail_map")
+	private Map<String, String> detailMap;
 
 	@JsonIgnore
 	@OneToMany(mappedBy = "product")

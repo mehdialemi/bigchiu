@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="web" />
         <module name="appliker" />
+        <module name="api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api" options="-parameters" />
       <module name="appliker" options="-parameters" />
       <module name="web" options="-parameters" />
     </option>
