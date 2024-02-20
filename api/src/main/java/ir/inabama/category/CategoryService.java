@@ -25,4 +25,11 @@ public class CategoryService {
     public Category add(Category category) {
         return repository.save(category);
     }
+
+    public Category add(Category category, Category parent) {
+        Category p = repository.getById(parent.getId());
+        category.setParent(p);
+
+        return repository.save(category);
+    }
 }
