@@ -5,18 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="876773f3-384d-4036-aabd-555ddb173574" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/menu/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/menu/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/BorvistaTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/BrovistaTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/category/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/category/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/category/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/common/AuditModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/conf/ApiConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/image/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/inventory/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/product/ProductAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/product/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/product/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/product/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/test/java/ir/inabama/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/test/java/ir/inabama/category/CategoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/test/java/ir/inabama/product/ProductServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/test/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/ir/inabama/web/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/product/product-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/product/product-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/ir/inabama/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/ir/inabama/menu/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/ir/inabama/menu/MenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inabama.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inabama.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +79,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -369,35 +384,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/home/hamid/IdeaProjects/bigchiu/web/src/test/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "bcf57ba9262f82b2a66dd634cf3f71a6",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/hamid/IdeaProjects/bigchiu/api/src/test/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e42db0c142e0c66d1b6d8f1742f87542&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/src/test/resources" />
       <recent name="$PROJECT_DIR$/web/src/test/resources" />
       <recent name="$PROJECT_DIR$/web/src/main/resources/templates/fragments/admin" />
       <recent name="$PROJECT_DIR$/web/src/main/resources/templates/admin/fragments" />
       <recent name="$PROJECT_DIR$/web/src/main/resources/templates/admin" />
-      <recent name="$PROJECT_DIR$/web/src/main/resources/static/css/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/src/main/resources/templates/product" />
@@ -416,9 +433,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (3)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ir.inabama.Main" />
+  <component name="RunManager" selected="JUnit.CategoryTest.testChildParent">
+    <configuration name="BorvistaTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ir.inabama.BorvistaTest1" />
       <module name="api" />
       <extension name="coverage">
         <pattern>
@@ -430,14 +447,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="product-details.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bigchiu/web/src/main/resources/templates/product/product-details.html" useBuiltInWebServerPort="true">
-      <method v="2" />
+    <configuration name="BrovistaTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ir.inabama.BrovistaTest2" />
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ir.inabama.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="product.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bigchiu/web/src/main/resources/templates/product/product.html" useBuiltInWebServerPort="true">
-      <method v="2" />
+    <configuration name="ApplicationTest.givenBraceQuantifier_whenMatches_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ir.inabama.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ir.inabama" />
+      <option name="MAIN_CLASS_NAME" value="ir.inabama.ApplicationTest" />
+      <option name="METHOD_NAME" value="givenBraceQuantifier_whenMatches_thenCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="upload.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bigchiu/web/src/main/resources/templates/product/upload.html" useBuiltInWebServerPort="true">
-      <method v="2" />
+    <configuration name="CategoryTest.testChildParent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ir.inabama.category.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ir.inabama.category" />
+      <option name="MAIN_CLASS_NAME" value="ir.inabama.category.CategoryTest" />
+      <option name="METHOD_NAME" value="testChildParent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceTest.addCategoryToProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ir.inabama.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ir.inabama.product" />
+      <option name="MAIN_CLASS_NAME" value="ir.inabama.product.ProductServiceTest" />
+      <option name="METHOD_NAME" value="addCategoryToProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="login" />
@@ -462,20 +531,6 @@
     <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="shopping" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ir.inabama.shopping.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ir.inabama.Application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ir.inabama.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -512,24 +567,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JavaScript Debug.upload.html" />
-      <item itemvalue="JavaScript Debug.product.html" />
-      <item itemvalue="JavaScript Debug.product-details.html" />
+      <item itemvalue="Application.BorvistaTest1" />
+      <item itemvalue="Application.BrovistaTest2" />
+      <item itemvalue="JUnit.CategoryTest.testChildParent" />
+      <item itemvalue="JUnit.ProductServiceTest.addCategoryToProduct" />
+      <item itemvalue="JUnit.ApplicationTest.givenBraceQuantifier_whenMatches_thenCorrect" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.Application (1)" />
       <item itemvalue="Spring Boot.Application (2)" />
       <item itemvalue="Spring Boot.Web Application" />
-      <item itemvalue="Spring Boot.Application (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Application (3)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JavaScript Debug.product.html" />
-        <item itemvalue="JavaScript Debug.upload.html" />
-        <item itemvalue="JavaScript Debug.product-details.html" />
+        <item itemvalue="JUnit.CategoryTest.testChildParent" />
+        <item itemvalue="JUnit.ProductServiceTest.addCategoryToProduct" />
+        <item itemvalue="Application.BorvistaTest1" />
+        <item itemvalue="Application.BrovistaTest2" />
+        <item itemvalue="JUnit.ApplicationTest.givenBraceQuantifier_whenMatches_thenCorrect" />
       </list>
     </recent_temporary>
   </component>
@@ -574,7 +629,12 @@
       <workItem from="1706220620615" duration="520000" />
       <workItem from="1706299159916" duration="4356000" />
       <workItem from="1706530252848" duration="6273000" />
-      <workItem from="1707558252802" duration="2450000" />
+      <workItem from="1707558252802" duration="3907000" />
+      <workItem from="1707823260299" duration="8885000" />
+      <workItem from="1707947802501" duration="23608000" />
+      <workItem from="1708261772724" duration="4106000" />
+      <workItem from="1708343286199" duration="2828000" />
+      <workItem from="1708434708782" duration="1887000" />
     </task>
     <servers />
   </component>
@@ -709,6 +769,21 @@
           <url>file://$PROJECT_DIR$/web/src/main/java/ir/inabama/web/product/ProductController.java</url>
           <line>15</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/test/java/ir/inabama/ApplicationTest.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/test/java/ir/inabama/category/CategoryTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/test/java/ir/inabama/category/CategoryTest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

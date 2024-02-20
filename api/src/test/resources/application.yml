@@ -1,0 +1,21 @@
+server:
+  port: 9090
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.H2Dialect
+    generate-ddl: true
+    show-sql: true
+    properties:
+      hibernate.enable_lazy_load_no_trans: true
+
+  datasource:
+    url: jdbc:h2:mem:test
+
+logging:
+  level:
+    org.hibernate.sql: DEBUG
+    org.hibernate.type: TRACE
+
