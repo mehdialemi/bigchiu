@@ -7,24 +7,42 @@ import org.springframework.stereotype.Service;
 @Service
 public class ProductService {
 
-    private final ProductRepository repository;
+    private final ProductRepository productRepository;
+
+    private final ProductAttributeRepository attributeRepository;
 
     @Autowired
-    public ProductService(ProductRepository repository) {
-        this.repository = repository;
+    public ProductService(ProductRepository productRepository, ProductAttributeRepository attributeRepository) {
+        this.productRepository = productRepository;
+        this.attributeRepository = attributeRepository;
     }
 
     public Product addProduct(Product product) {
-        return repository.save(product);
+        return productRepository.save(product);
     }
 
     public Product get(Long id) {
-        return repository.getById(id);
+        return productRepository.getById(id);
     }
 
     public Product addCategory(Long id, Category category) {
-        Product product = repository.getById(id);
+        Product product = productRepository.getById(id);
         product.setCategory(category);
-        return repository.save(product);
+        return productRepository.save(product);
+    }
+
+    /**
+     * Add a new attribute to the product
+     * @param productId
+     * @param attribute
+     * @return
+     * @throws ProductException
+     */
+    public void addAttribute(long productId, ProductAttribute attribute) throws ProductException {
+        Product product = productRepository.findById(productId)
+                .orElseThrow(() -> ProductException.notFound(productId));
+
+        attribute.setProduct(product);
+        attributeRepository.save(attribute);
     }
 }

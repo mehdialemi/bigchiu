@@ -1,5 +1,9 @@
 package ir.inabama.product;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.PropertyNamingStrategies;
+import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import ir.inabama.category.Category;
 import ir.inabama.image.Image;
 import lombok.Data;
@@ -10,44 +14,26 @@ import java.util.Map;
 import java.util.Set;
 
 @Data
+@JsonNaming(value = PropertyNamingStrategies.SnakeCaseStrategy.class)
+@JsonInclude(JsonInclude.Include.NON_NULL)
 @Entity
-@Table(name = "product")
 public class Product {
 
     @Id
-    @Column(name = "product_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "name")
     private String name;
 
     private String description;
 
-    @ElementCollection
-    private Set<ProductAttribute> mainFeatures;
-
-    @ElementCollection
-    private Set<ProductAttribute> details;
+    @OneToMany(mappedBy = "product", fetch = FetchType.LAZY)
+    private Set<ProductAttribute> attributes = new HashSet<>();
 
     @OneToMany(mappedBy = "product")
     private Set<Image> images = new HashSet<>();
 
 
     @ManyToOne
-    @JoinColumn(name = "category_id")
     private Category category;
-
-//    @ManyToMany(cascade = {CascadeType.ALL})
-//    @JoinTable(
-//            name = "product_category",
-//            joinColumns = {
-//                    @JoinColumn(name = "product_id")
-//            },
-//            inverseJoinColumns = {
-//                    @JoinColumn(name = "category_id")
-//            }
-//    )
-//    private Set<Category> categories = new HashSet<>();
-
 }

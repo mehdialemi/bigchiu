@@ -1,6 +1,5 @@
 package ir.inabama.category;
 
-import org.checkerframework.checker.units.qual.C;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -29,13 +28,12 @@ public class CategoryTest {
     public void testChildParent() {
         Category p1 = new Category();
         p1.setName("p1");
-        Category cat1 = categoryService.add(p1);
+        categoryService.add(p1);
 
         Category p2 = new Category();
         p2.setName("p2");
-        p2.setParent(cat1);
 
-        Category add = categoryService.add(p2);
+        categoryService.add(p2, p1);
 
         Category p1Result = categoryService.getByName(p1.getName());
         Assert.assertEquals(p2.getName(), p1Result.getChildren().stream().findFirst().get().getName());
