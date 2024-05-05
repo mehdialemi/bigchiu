@@ -8,11 +8,12 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonNaming(value = PropertyNamingStrategies.SnakeCaseStrategy.class)
-public class ProductAttribute {
+public class ProductAttribute implements Serializable {
 
     @Getter
     @Setter

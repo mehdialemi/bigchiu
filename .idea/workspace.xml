@@ -5,19 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="876773f3-384d-4036-aabd-555ddb173574" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/common/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/product/ProductAttributeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/product/ProductException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/DateAudit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/JwtAuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/PasswordReset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/PasswordResetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/ResetPasswordType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/ResetType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/SignUpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/config/AuditingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/google/GoogleLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/google/ProfileObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/google/TokenObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/security/CurrentUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/security/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/security/JwtTokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/auth/security/UserPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/common/AdType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/common/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/common/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/common/HealthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/common/InitialDataLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/common/KafkaClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/common/ListRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/common/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/common/RoleUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/exceptions/AdRequestNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/exceptions/AppException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/exceptions/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/exceptions/CampaignNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/exceptions/NoPermissionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/exceptions/NoVideoFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/exceptions/TicketNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/exceptions/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/order/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/user/AccountType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/user/ActivationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/user/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/user/RoleName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/user/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/user/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/user/UserListRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/user/UserListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/user/UserProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/user/UserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/utils/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/utils/RandomCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/utils/UserUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/ir/inabama/BorvistaTest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/ir/inabama/BrovistaTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/ir/inabama/category/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/category/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/ir/inabama/image/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/image/Image.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/ir/inabama/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/product/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/ir/inabama/product/ProductAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/product/ProductAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/ir/inabama/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/product/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/ir/inabama/ApplicationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/ir/inabama/category/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/ir/inabama/category/CategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/ir/inabama/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/ir/inabama/product/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/test/java/ir/inabama/product/ProductServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/ir/inabama/product/ProductServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +121,8 @@
         <option value="Enum" />
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -370,37 +424,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/hamid/IdeaProjects/bigchiu/api/src/test/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;e42db0c142e0c66d1b6d8f1742f87542&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/home/hamid/IdeaProjects/bigchiu/api/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "e42db0c142e0c66d1b6d8f1742f87542",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/src/main/java" />
+      <recent name="$PROJECT_DIR$/api/src/main" />
+      <recent name="$PROJECT_DIR$/api/src/main/java/ir/inabama/utils" />
+      <recent name="$PROJECT_DIR$/api/src/main/java/ir/inabama" />
       <recent name="$PROJECT_DIR$/api/src/test/resources" />
-      <recent name="$PROJECT_DIR$/web/src/test/resources" />
-      <recent name="$PROJECT_DIR$/web/src/main/resources/templates/fragments/admin" />
-      <recent name="$PROJECT_DIR$/web/src/main/resources/templates/admin/fragments" />
-      <recent name="$PROJECT_DIR$/web/src/main/resources/templates/admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/src/main/resources/templates/product" />
@@ -419,38 +473,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.inabama in api">
-    <configuration name="CategoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ir.inabama.category.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ir.inabama.category" />
-      <option name="MAIN_CLASS_NAME" value="ir.inabama.category.CategoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CategoryTest.testChildParent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ir.inabama.category.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ir.inabama.category" />
-      <option name="MAIN_CLASS_NAME" value="ir.inabama.category.CategoryTest" />
-      <option name="METHOD_NAME" value="testChildParent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.Application (3)">
     <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api" />
       <extension name="coverage">
@@ -490,6 +513,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="java in api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/api/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in web" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/web/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="login" />
       <method v="2">
@@ -513,6 +552,14 @@
     <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="shopping" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ir.inabama.shopping.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ir.inabama.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -549,11 +596,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.java in api" />
+      <item itemvalue="JUnit.java in web" />
       <item itemvalue="JUnit.ProductServiceTest" />
       <item itemvalue="JUnit.ProductServiceTest.addAttributeToProduct" />
       <item itemvalue="JUnit.inabama in api" />
-      <item itemvalue="JUnit.CategoryTest" />
-      <item itemvalue="JUnit.CategoryTest.testChildParent" />
+      <item itemvalue="Spring Boot.Application (3)" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.Application (1)" />
@@ -562,11 +610,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.inabama in api" />
+        <item itemvalue="JUnit.java in api" />
+        <item itemvalue="JUnit.java in web" />
         <item itemvalue="JUnit.ProductServiceTest.addAttributeToProduct" />
+        <item itemvalue="JUnit.inabama in api" />
         <item itemvalue="JUnit.ProductServiceTest" />
-        <item itemvalue="JUnit.CategoryTest" />
-        <item itemvalue="JUnit.CategoryTest.testChildParent" />
       </list>
     </recent_temporary>
   </component>
@@ -621,6 +669,16 @@
       <workItem from="1708865986754" duration="682000" />
       <workItem from="1708877004688" duration="6046000" />
       <workItem from="1709385158506" duration="176000" />
+      <workItem from="1709385358635" duration="1378000" />
+      <workItem from="1710421236404" duration="3380000" />
+      <workItem from="1710788318708" duration="947000" />
+      <workItem from="1712043881557" duration="1873000" />
+      <workItem from="1712403246925" duration="2369000" />
+      <workItem from="1712406237771" duration="4230000" />
+      <workItem from="1712506184823" duration="5344000" />
+      <workItem from="1713607566232" duration="3005000" />
+      <workItem from="1714214251754" duration="77000" />
+      <workItem from="1714916713584" duration="3969000" />
     </task>
     <servers />
   </component>
@@ -758,8 +816,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/api/src/test/java/ir/inabama/product/ProductServiceTest.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="21" />
+          <line>72</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

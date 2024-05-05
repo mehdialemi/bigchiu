@@ -4,11 +4,12 @@ import ir.inabama.product.Product;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Data
 @Entity
 @Table(name = "image")
-public class Image {
+public class Image implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,7 +25,6 @@ public class Image {
     private String largeLink;
 
     @ManyToOne
-    @JoinColumn(name = "product_id")
     private Product product;
 
 }

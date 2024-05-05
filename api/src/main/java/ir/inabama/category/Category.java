@@ -12,15 +12,16 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
 @Entity
 @JsonNaming(value = PropertyNamingStrategies.SnakeCaseStrategy.class)
 @JsonInclude(JsonInclude.Include.NON_NULL)
-@JsonIgnoreProperties({"hibernate_lazy_initializer", "handler"})
+//@JsonIgnoreProperties({"hibernate_lazy_initializer", "handler"})
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-public class Category  {
+public class Category implements Serializable {
 
     @Id
     @Getter
@@ -44,7 +45,7 @@ public class Category  {
     private Category parent;
 
     @OneToMany(mappedBy = "parent", fetch = FetchType.LAZY)
-    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+//    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     @Setter
     private Set<Category> children = new HashSet<>();
 

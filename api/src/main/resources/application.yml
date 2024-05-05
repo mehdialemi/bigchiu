@@ -4,15 +4,34 @@ server:
 spring:
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     database-platform: org.hibernate.dialect.MySQL57Dialect
     generate-ddl: true
     show-sql: true
 
   datasource:
     password: asdf/1234
-    username: admin
+    username: root
     url: jdbc:mysql://localhost:3306/shopping
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    default-encoding: UTF-32
+    username: advest.ir
+    password: eebiqwluakzwkbym
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+
+auth:
+  password:
+    reset-subject: advest password reset
+    reset-base-url: http://localhost:9090/panel/#/auth/reset/email
+
+jwt:
+  token: LFmQJ6CTThwrAPMDzBt2qAWh
+  expiration: 604800000
 
 logging:
   level:
